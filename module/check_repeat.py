@@ -49,7 +49,7 @@ class CheckRepeat():
         return images, delete
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     base_path = './images'
     for category in os.listdir(base_path):
         print(f'Check Repect - {category}')

@@ -1,8 +1,8 @@
 import os
 from PIL import Image
 
-image_path = "./images"
-resize_path = "./resize"
+image_path = './images'
+resize_path = './resize'
 
 target_size = (400, 400)
 
@@ -20,4 +20,4 @@ for sub_path in os.listdir(image_path):
             save_path = os.path.join(resize_path, sub_path, img_name)
             old_image.resize(target_size, Image.ANTIALIAS).save(save_path)
 
-print("Done!")
+print('Done!')

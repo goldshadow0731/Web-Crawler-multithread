@@ -13,7 +13,7 @@ class CheckImage():
         Returns:
             BinaryIO: Binary image
         """
-        with open(img_path, "rb") as fp:
+        with open(img_path, 'rb') as fp:
             fp.seek(-2, 2)
             img_text = fp.read()
         return img_text
