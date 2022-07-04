@@ -14,7 +14,7 @@ categories = {
     'Train': ['train']
 }
 
-max_num = 1000
+max_num = 10
 
 # ==================== Split ====================
 
